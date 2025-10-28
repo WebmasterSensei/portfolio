@@ -30,7 +30,7 @@ export default function Hero() {
             {/* Text Content */}
             <div className="space-y-6 order-2">
               <div className="space-y-2">
-                <p className="text-purple-400 text-lg font-medium">Hi, I'm</p>
+                <p className="text-white text-lg font-medium">Hi, I'm</p>
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
                   Kent Abarquez
                 </h1>
@@ -48,7 +48,7 @@ export default function Hero() {
               </p>
 
               {/* CTA Buttons */}
-              <div className="flex flex-wrap gap-4 pt-4">
+              <div className="flex justify-end flex-wrap gap-4 pt-4">
                 <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all flex items-center gap-2 group">
                   View My Work
                   <ArrowRight
