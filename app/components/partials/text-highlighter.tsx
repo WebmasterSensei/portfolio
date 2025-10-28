@@ -9,7 +9,7 @@ export function HighlighterComponent() {
                    are not those who never fail
                 </Highlighter>{" "}
                 makes important{" "}
-                <Highlighter action="highlight" color="#11224E">
+                <Highlighter action="highlight" color="#41A67E">
                    but those who never quit
                 </Highlighter>{" "}
                 -- Albert Einstein.

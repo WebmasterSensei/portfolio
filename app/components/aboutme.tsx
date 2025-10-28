@@ -5,8 +5,8 @@ import { HighlighterComponent } from "./partials/text-highlighter";
 
 export default function AboutMe() {
     return (
-        <div className="min-h-screen flex items-center justify-center">
-            <div className="max-w-4xl w-full">
+        <div className="min-h-screen flex items-center justify-center" id="aboutme">
+            <div className="max-w-4xl w-full"  >
                 <div className="mb-20">
                     <TextDividerComponent title="About me" sub="more about me?" />
                 </div>

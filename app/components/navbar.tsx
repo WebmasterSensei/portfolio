@@ -9,21 +9,21 @@ export default function NavBar() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <span className="bg-gradient-to-r to-slate-950 from-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all">
-                Portfolio
+              <span className="bg-gradient-to-r to-slate-950 from-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-slate-500/50 transition-all">
+                KJA
               </span>
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <a
-                href="#home"
+                href="#hero"
                 className="text-slate-300 hover:text-white transition-colors"
               >
                 Home
               </a>
               <a
-                href="#about"
+                href="#aboutme"
                 className="text-slate-300 hover:text-white transition-colors"
               >
                 About me
@@ -35,12 +35,12 @@ export default function NavBar() {
                 Projects
               </a>
               <a
-                href="#contact"
+                href="#contactus"
                 className="text-slate-300 hover:text-white transition-colors"
               >
                 Contact
               </a>
-              <button className="bg-gradient-to-r from-slate-950 to-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all">
+              <button className="bg-gradient-to-r from-slate-950 to-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-slate-500/50 transition-all">
                 Resume
               </button>
             </div>

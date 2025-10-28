@@ -11,8 +11,8 @@ import { BentoCard, BentoGrid } from "@/components/ui/bento-grid"
 const features = [
   {
     Icon: FileTextIcon,
-    name: "Save your files",
-    description: "We automatically save your files as you type.",
+    name: "Gift Check Monitoring",
+    description: "Creating barcodes and gift-check",
     href: "/",
     cta: "Learn more",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
@@ -20,8 +20,8 @@ const features = [
   },
   {
     Icon: InputIcon,
-    name: "Full text search",
-    description: "Search through all your files in one place.",
+    name: "Check Clearing And Monitoring",
+    description: "Clearing Checks",
     href: "/",
     cta: "Learn more",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
@@ -29,8 +29,8 @@ const features = [
   },
   {
     Icon: GlobeIcon,
-    name: "Multilingual",
-    description: "Supports 100+ languages and counting.",
+    name: "Bank Reconcilation",
+    description: "Matching Bank Statements",
     href: "/",
     cta: "Learn more",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
@@ -38,22 +38,12 @@ const features = [
   },
   {
     Icon: CalendarIcon,
-    name: "Calendar",
-    description: "Use the calendar to filter your files by date.",
+    name: "Bad Order And Near Ex",
+    description: "Form that monitors items",
     href: "/",
     cta: "Learn more",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2",
-  },
-  {
-    Icon: BellIcon,
-    name: "Notifications",
-    description:
-      "Get notified when someone shares a file or mentions you in a comment.",
-    href: "/",
-    cta: "Learn more",
-    background: <img className="absolute -top-20 -right-20 opacity-60" />,
-    className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4",
   },
 ]
 
