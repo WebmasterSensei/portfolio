@@ -9,7 +9,7 @@ export default function NavBar() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r to-slate-950 from-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all">
                 Portfolio
               </span>
             </div>
@@ -26,7 +26,7 @@ export default function NavBar() {
                 href="#about"
                 className="text-slate-300 hover:text-white transition-colors"
               >
-                About
+                About me
               </a>
               <a
                 href="#projects"
@@ -40,7 +40,7 @@ export default function NavBar() {
               >
                 Contact
               </a>
-              <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all">
+              <button className="bg-gradient-to-r from-slate-950 to-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all">
                 Resume
               </button>
             </div>

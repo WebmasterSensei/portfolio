@@ -139,7 +139,7 @@ export const MorphingText: React.FC<MorphingTextProps> = ({
 }) => (
   <div
     className={cn(
-      "relative text-white mx-auto h-16 w-full max-w-screen-md text-start font-sans text-[40pt] leading-none font-bold [filter:url(#threshold)_blur(0.6px)] md:h-24 lg:text-[2.5rem]",
+      "relative text-white mx-auto w-ful mb-10 max-w-3xl text-start font-sans text-[40pt] leading-none font-bold [filter:url(#threshold)_blur(0.6px)]  lg:text-[2.5rem]",
       className
     )}
   >

@@ -1,0 +1,135 @@
+/* AboutMeDark.css */
+.about-me-dark {
+  min-height: 100vh;
+  background: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.dark-card {
+  background: #1a1a1a;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid #333;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.dark-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.dark-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #00d4ff;
+}
+
+.dark-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dark-title h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 2rem;
+  background: linear-gradient(45deg, #00d4ff, #0099cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark-title p {
+  color: #888;
+  margin: 5px 0 0 0;
+}
+
+.dark-content h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.dark-bio p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.dark-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.stat {
+  text-align: center;
+  padding: 20px;
+  background: #252525;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.stat-number {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00d4ff;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.dark-skills h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.skill-bar {
+  margin-bottom: 15px;
+}
+
+.skill-bar span {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background: #333;
+  border-radius: 10px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.progress {
+  background: linear-gradient(45deg, #00d4ff, #0099cc);
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .dark-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .dark-stats {
+    grid-template-columns: 1fr;
+  }
+}
