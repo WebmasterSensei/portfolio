@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X} from "lucide-react";
+import { Menu, X } from "lucide-react";
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -8,11 +8,20 @@ export default function NavBar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex-shrink-0">
-              <span className="bg-gradient-to-r to-slate-950 from-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-slate-500/50 transition-all">
-                KJA
-              </span>
-            </div>
+            <header className="">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="flex justify-between items-center h-16">
+                  <div className="flex-shrink-0 flex items-center gap-3">
+                    <img src="/images/kja.svg" alt="KJA Logo" className="h-10 w-10" />
+                    <span className=" text-white py-2.5 rounded-full hover:shadow-xl hover:shadow-slate-600/40 transition-all duration-300 font-semibold cursor-pointer">
+                      KJA
+                    </span>
+                  </div>
+                  <nav className="flex space-x-8">
+                  </nav>
+                </div>
+              </div>
+            </header>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">

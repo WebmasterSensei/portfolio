@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+// @ts-ignore: No type declarations for CSS side-effect imports in this project
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kenjey",
   description: "Create by kent jey abarquez",
+  icons: {
+    icon: "/images/kja.svg",
+  }
 };
 
 export default function RootLayout({
