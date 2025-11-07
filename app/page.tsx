@@ -11,7 +11,7 @@ import ContactUs from './components/contactus';
 export default function Home() {
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-slate-950 via-blue-950 to-slate-950">
+    <div className="min-h-screen bg-linear-to-br from-slate-950 via-slate-950 to-blue-950">
       {/* Navbar */}
       <NavBar />
 

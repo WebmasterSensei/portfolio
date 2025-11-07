@@ -76,7 +76,7 @@ export function VideoText({
   fontSize = 8,
   fontWeight = "bold",
   textAnchor = "middle",
-  dominantBaseline = "middle",
+  dominantBaseline = "start",
   fontFamily = "sans-serif",
   as: Component = "div",
 }: VideoTextProps) {

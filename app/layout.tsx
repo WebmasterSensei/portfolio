@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kenjey",
-  description: "Create by kent jey abarquez",
+  title: "Kenzou",
+  description: "Create by Kent Jeremai Abarquez",
   icons: {
     icon: "/images/kja.svg",
   }

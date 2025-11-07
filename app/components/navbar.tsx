@@ -14,7 +14,7 @@ export default function NavBar() {
                   <div className="flex-shrink-0 flex items-center gap-3">
                     <img src="/images/kja.svg" alt="KJA Logo" className="h-10 w-10" />
                     <span className=" text-white py-2.5 rounded-full hover:shadow-xl hover:shadow-slate-600/40 transition-all duration-300 font-semibold cursor-pointer">
-                      KJA
+                      Kenzou
                     </span>
                   </div>
                   <nav className="flex space-x-8">
