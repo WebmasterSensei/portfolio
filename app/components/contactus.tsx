@@ -8,7 +8,7 @@ export default function ContactUs() {
                     <div className="mb-20 mt-52">
                         <TextDividerComponent title="Contact us" sub="Get in touch" />
                     </div>
-                    <div className="absolute  -top-6 -left-6 w-20 h-20">
+                    {/* <div className="absolute  -top-6 -left-6 w-20 h-20">
                         <svg viewBox="0 0 80 80" className="w-full h-full">
                             <circle cx="40" cy="40" r="38" fill="#fed7aa" stroke="#fb923c" strokeWidth="2" />
                             <circle cx="25" cy="25" r="5" fill="#fb923c" opacity="0.6" />
@@ -23,11 +23,11 @@ export default function ContactUs() {
                             <circle cx="50" cy="25" r="3" fill="#3b82f6" opacity="0.4" />
                             <circle cx="40" cy="50" r="5" fill="#3b82f6" opacity="0.5" />
                         </svg>
-                    </div>
+                    </div> */}
 
                     <div className="grid lg:grid-cols-2 gap-x-8 gap-y-12 py-8 px-6">
                         <div className="text-center flex flex-col items-center justify-center">
-                            <img src="https://readymadeui.com/signin-image.webp" className="shrink-0 aspect-[250/196] object-contain" />
+                            {/* <img src="https://readymadeui.com/signin-image.webp" className="shrink-0 aspect-[250/196] object-contain" /> */}
                         </div>
 
                         <form className="rounded-tl-3xl rounded-bl-3xl max-lg:-order-1">
