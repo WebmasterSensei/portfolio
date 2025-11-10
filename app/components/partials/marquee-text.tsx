@@ -160,7 +160,7 @@ const ReviewCard = ({
         <img
           src={img}
           alt={name}
-          className="rounded w-[70px] h-[50px] object-contain filter grayscale hover:grayscale-0 hover:scale-150
+          className="rounded w-[70px] h-[50px] object-contain filter hover:grayscale-0 hover:scale-150
            transition-transform duration-300"
         />
       </div>

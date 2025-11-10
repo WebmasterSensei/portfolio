@@ -14,7 +14,7 @@ export default function Hero() {
               <span className="text-white text-lg font-medium">
                 <WordRotate words={["Konichiwa", "Hello", "Aneyong"]} />
               </span>
-              <span className="text-white">, I am</span>
+              <span className="text-white">Mina-san I'm</span>
             </div>
 
             {/* Name */}
