@@ -2,6 +2,13 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const downloadCv = () => {
+    const link = document.createElement('a');
+    link.href = '/cv/kentcv.pdf'; // path to your CV file
+    link.download = 'KentCv.pdf';
+    link.click();
+
+  }
   return (
     <div>
       <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800">
@@ -49,7 +56,7 @@ export default function NavBar() {
               >
                 Contact
               </a>
-              <button className="bg-gradient-to-r from-slate-950 to-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-slate-500/50 transition-all">
+              <button onClick={downloadCv} className="bg-gradient-to-r from-slate-950 to-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-slate-500/50 transition-all">
                 Resume
               </button>
             </div>
