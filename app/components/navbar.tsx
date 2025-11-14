@@ -61,6 +61,8 @@ export default function NavBar() {
               </button>
             </div>
 
+            
+
             {/* Mobile menu button */}
             <div className="md:hidden">
               <button
@@ -101,7 +103,7 @@ export default function NavBar() {
               >
                 Contact
               </a>
-              <button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all mt-2">
+              <button onClick={downloadCv} className="bg-gradient-to-r from-slate-950 to-slate-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-slate-500/50 transition-all">
                 Resume
               </button>
             </div>
